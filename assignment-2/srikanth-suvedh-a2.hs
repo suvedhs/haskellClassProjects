@@ -109,7 +109,7 @@ myTestList =
 
     , "perfects 1" ~: perfects 7 ~=? [6]
 
-    , "replicate 1" ~: replicate 7 "howdy" ~=? ["howdy","howdy","howdy","howdy","howdy","howdy","howdy"]
+    , "replicate 1" ~: Main.replicate 7 "howdy" ~=? ["howdy","howdy","howdy","howdy","howdy","howdy","howdy"]
 
 
     ]
